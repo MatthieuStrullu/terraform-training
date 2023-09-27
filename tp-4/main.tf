@@ -10,14 +10,14 @@ resource "google_compute_subnetwork" "subnet" {
   network       = google_compute_network.vpc.id
 }
 
-resource "google_compute_instance" "default" {
+resource "google_compute_instance" "nginx_instance" {
   name         = "web-vm"
   machine_type = var.instance_template
   zone         = var.zone
   tags         = ["gcp", "terraform","web"]
   boot_disk {
     initialize_params {
-      image = data.google_compute_image.my_image.self_link
+      image = data.google_compute_image.my_image.self_link 
     }
   }
   network_interface {
@@ -27,6 +27,12 @@ resource "google_compute_instance" "default" {
       nat_ip = data.google_compute_address.vm_static_ip.address # Attach static ip to NIC
     }
   }
+  provisioner "local-exec" {
+    command = "echo ${google_compute_instance.nginx_instance.network_interface.0.access_config.0.nat_ip} >> ip_address.txt"
+  }
+
+  # Install web
+  metadata_startup_script = "sudo apt-get update; sudo apt-get install nginx -y; sudo systemctl enable --now nginx"
 }
 
 resource "google_compute_firewall" "ssh" {
