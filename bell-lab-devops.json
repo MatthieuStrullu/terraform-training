@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "bell-lab",
+  "private_key_id": "8d53347912c74f2fb887218068aa24b84b5c4b3d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCLHchD5GdnRgzn\nHY31dt3zUHToJS23xCst5yuCHJ6UpruiuD7205F7VuQeQd1weTDlNxAlADURKyPW\n/kLZaY0IMmhr5unvXttjsKZx7Hc0uTdvoerRcU9WpcBlh0AzOpF/2nRULRKSPbG1\nsbjLh3A2lSYuoFxkI1u8w2gukgaEyMn7Z5MeElrNJ/pTRb27N7ENkCMDATcRFoDR\nXDzq3C5Sp0AHDASNR9amUvN3fXclePpckUN2RdtF+E2cbnaPEx3JwzbCJFwQPmJz\nTVOKSao4VQV0ntwu0avsUclpnm8/AULGFFg0ifVMPOLpC8vvJlCLyrUVKQF6H/tk\nSEWVF66bAgMBAAECggEAQOnmO0vWNjnZJnTDe3D6UyFNU8+ZXCD0twgh5KYfFyUP\n8/c+JiWFwoRCkJ3SSru6JZLCfUlx+a9kG1tsbQ+UB+mhkQvgR9o+y+8vU4RwAVGV\nvQjUTeOuDjPsqVNpkR34q6yPUIHxovyXsj0aChqKMWX6OZKJWg6nrVaPBAAOe6GX\naMUke/3YWoXU2EVQN+GeBVSjMF53OTCoyTBP/ByQICFR8//ZYDI58Jr6n8MePjJY\nU+iAsxuXPxhb0g9/ov1yeB+uA5upaxFZGmSCsVwjH8uRs1fcqsORdaOeatZkGI6U\n27pKkuDPhhGMS5fyoJjdRa99E1JoDCOsvy2PBUQryQKBgQDDY2fu5s7G+SnJdBpx\nr1l0wn6eMmOVTnhWlI8Yo5zzne+j33GQGuJwGnkiBSWHFc2coeBH9e/htjM+fI5f\n1QJqP70tqGmhYMTXiijrfM/JWW4Ic0jCPmSTS4sPN4+aUf7CtWXBgHwdOcnrlGO7\nT3dzXPd4duvyneqgmyMCMNY8iQKBgQC2RZYgeqJCOa2a8KfSKX7lIqiaz4FYJT3d\nil1//cI7Bb1hnpuembPxj/MFuUSJfzvOHvCMomrXdqracKsya1lIAA7u4hrBul8+\nGxOLvJGE6572FTWaievVFQMEbcfeTmz3v2uJLZHAjtadmNbPBoeB17xfWSZhk7xd\nT5hgQNjxAwKBgH1wpXpYTiqqLqy6UHvqQrlWYOn5mbtynImhaNk9uXciT4ba3lLR\nH80vAdPYkAZQ9id4OcCZYX98dRvJ5bIa1CkYcMEOXXqQ4O8sMSc2g0RWmPDt6qli\nWznBhy6m0hgWSkQBJ6n6bjRpNHx9USYhV6QF7I83cjXaMpcX4nr2laRZAoGBAI9J\npPtjbKsjLJbhGQzeEiOPW3xYJBZnMHs4ishTdJ1xpa9YQH4t1ofP4fxd6MMugpVH\nPVNRWyyG3UlbyTmZqlYvtY2VsfMZ0EXCg1sWok8b65sIkVsrkXmxSu3wX28juAYL\nNT5h1HLL12uM+1FEkMJCFpPeQY3z1eCE8gS49dKBAoGBALjJoIGBIcaKQi64F9jg\nRazx5sOp/I/8+H+ifskzTOwUA4apx32obUTRgx/9BzDcHoPlKF4dJLhq/EjTBeqN\ndQczA8xhMywSrWWWcJRrb1b1K05i1U7I4DhXtpWANmqfigcp9CQKX/X0HsLVHasv\nl8XM/aSRHguizz1677mka+kD\n-----END PRIVATE KEY-----\n",
+  "client_email": "deployment@bell-lab.iam.gserviceaccount.com",
+  "client_id": "106539490367174887497",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/deployment%40bell-lab.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
